@@ -1,0 +1,8 @@
+# 1. Save as `ai_trading_bot.py`
+# 2. Install dependencies (one command!)
+pip install pandas numpy plotly scikit-learn pyyaml
+
+# 3. RUN ANY STRATEGY:
+python ai_trading_bot.py --strategy ma_crossover --use-ai
+python ai_trading_bot.py --strategy rsi
+python ai_trading_bot.py --strategy momentum --use-ai -o my_results.html
